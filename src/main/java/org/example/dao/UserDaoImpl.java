@@ -2,10 +2,11 @@ package org.example.dao;
 
 import org.example.User;
 import org.example.service.UserService;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
-
+@Repository
 public class UserDaoImpl implements UserDao {
 
     private List<User> userList = new ArrayList();
